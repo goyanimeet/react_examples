@@ -1,0 +1,33 @@
+install pakage like a -:
+npm install @react-three/fiber 
+npm install @react-three/drei
+
+
+
+//
+import React, { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Environment, CameraControls } from "@react-three/drei";
+//
+
+//
+      <Canvas camera={{ position: [0, 0, 1] }} className="abc" id ="abc">
+          <OrbitControls
+            enableZoom={false}
+            // dollyIn={10}
+            // dollyOut={30}
+            minPolarAngle={Math.PI / 2} // user cannot tilt up beyond 30 degrees above the horizon
+            maxPolarAngle={Math.PI - Math.PI / 2}
+          />
+          <Appelevision className=""/>   <model>
+           {/* <axesHelper /> */}
+          <Environment preset="studio" />
+        </Canvas>
+//
+
+website to convert  go to skatchfeb and download .glb file and move to https://gltf.pmnd.rs/ website 
+and that code 
+
+
+
+use skatchfeb for 3d model and also download glb format

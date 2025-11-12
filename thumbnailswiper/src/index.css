@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.slider{
+    height: 100%;
+}
+.control-dots{
+  display: none;
+}
+.carousel-status{
+  display: none;
+}
+
+.image{     
+  aspect-ratio: 2/1;
+}
+
+.SwiperSlide{
+  height: 100%;
+}
+
+.thumbswiper{
+  height: 50px;
+  width: 50px;
+}
+
+.thumbs-wrapper{
+  display: flex;
+  justify-content: center;
+}
